@@ -159,7 +159,7 @@ let g:flake8_show_in_file=1
 let g:flake8_show_in_gutter=1
 
 "Enable python indent
-source ~/.vim/indent/python.vim
+"source ~/.vim/indent/python.vim
 
 "Enable G undo 
 if has("persistent_undo")

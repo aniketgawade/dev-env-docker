@@ -10,5 +10,5 @@ COPY .vim /root/.vim
 COPY .bashrc /root/.bashrc
 COPY .tmux.conf /root/.tmux.conf
 
-RUN apt-get -y install git vim g++ python
+RUN apt-get -y install git vim g++ python ntp
 WORKDIR /root
